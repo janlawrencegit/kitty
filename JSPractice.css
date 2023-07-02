@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('pinkbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.background img {
+    max-height: 70vh;
+    max-width: 60vh;
+}
+
+.background button {
+    margin-top: 20px;
+    display: block;
+}
